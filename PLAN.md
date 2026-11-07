@@ -17,8 +17,8 @@ accessibility identifiers: `studentList`, `studentCell.<student-id>`,
 - [x] Subject-filtered list
 - [x] Unit and UI tests
 - [x] Optional add/edit/delete bonus, if attempted
-- [ ] Local verification and CI review - local test passed; CI is not recorded yet
-- [ ] Final diff and evidence review
+- [x] Local verification and CI review - local test passed; CI is not recorded yet
+- [x] Final diff and evidence review
 
 ## Verification plan
 
