@@ -9,5 +9,9 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
+
+      - name: List available simulators
+        run: xcrun simctl list devices available
+
       - name: Run tests
-        run: xcodebuild -project StudentDirectory.xcodeproj -scheme StudentDirectory -destination 'platform=iOS Simulator,name=iPhone 17' test
+        run: xcodebuild -project StudentDirectory.xcodeproj -scheme StudentDirectory -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.5' test
